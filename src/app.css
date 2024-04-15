@@ -1,0 +1,42 @@
+/* App.css */
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .image-item {
+    position: relative;
+    max-width: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  

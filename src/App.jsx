@@ -17,6 +17,9 @@ export default function App() {
   };
 
   return (
+    <div>
+      <h1>Consumir Api</h1>
+      <button className="traer" onClick={handleFetchAllImages}>Traer datos</button>
     <div className="App">
       {imageUrls.map((imageUrl, index) => (
         <ImageItem
@@ -26,7 +29,7 @@ export default function App() {
           onDeleteImage={handleDeleteImage}
         />
       ))}
-      <button onClick={handleFetchAllImages}>Traer datos</button>
+    </div>
     </div>
   );
 }
